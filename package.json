@@ -1,0 +1,18 @@
+{
+  "name": "technical_test_ponicode",
+  "version": "0.0.0",
+  "description": "technical_test_ponicode",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.59",
+    "fs": "0.0.1-security",
+    "typescript": "^3.8.3"
+  }
+}

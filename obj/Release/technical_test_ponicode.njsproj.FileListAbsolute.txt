@@ -1,0 +1,3 @@
+C:\Users\Pret\source\repos\technical_test_ponicode\obj\Release\technical_test_ponicode.njsproj.CoreCompileInputs.cache
+C:\Users\Pret\source\repos\technical_test_ponicode\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Pret\source\repos\technical_test_ponicode\obj\Release\technical_test_ponicode.njsprojAssemblyReference.cache
