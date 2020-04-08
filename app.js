@@ -63,8 +63,13 @@ function program() {
         console.log("The first file cannot be read");
     }
     else {
-        let data = parseFile(file); // [groups, nbr_groups, nbr_turns, max_capacity]
-        rollerCoaster(data);
+        let data = parseFile(file);
+        if (data !== undefined) {
+            rollerCoaster(data);
+        }
+        else {
+            console.log("The first file is not well formated");
+        }
     }
     file = readFile("ressources/roller_coaster.harder");
     if (file === undefined) {
@@ -72,10 +77,15 @@ function program() {
         return (undefined);
     }
     else {
-        let data = parseFile(file); // [groups, nbr_groups, nbr_turns, max_capacity]
-        rollerCoaster(data);
+        let data = parseFile(file);
+        if (data !== undefined) {
+            rollerCoaster(data);
+        }
+        else {
+            console.log("The second file is not well formated");
+            return undefined;
+        }
     }
 }
 program();
-while (true) { }
 //# sourceMappingURL=app.js.map
