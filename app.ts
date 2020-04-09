@@ -144,7 +144,7 @@ function rollerCoaster(data: DataStruct) {
         console.log(gain);
         return ;
     }
-    // Number of turns remainning
+    // Number of turns remaining
     let rest = data.nbr_turns - i - 1;
     // Number of cycle we can cut from the remaining
     let cycle_count = Math.floor(rest / cycle.size);
